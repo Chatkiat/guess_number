@@ -251,6 +251,7 @@ class _GamePageState extends State<GamePage> {
                     _feedback = '';
                    _showMaterialDialog('Error', 'Please enter the number');
                     _controller.clear();
+                    newGame = false;
                   }
                 }
                 );
